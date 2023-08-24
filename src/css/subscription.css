@@ -216,7 +216,7 @@ form {
   .subscription .container {
     display: flex;
     justify-content: center;
-    min-width: 1440px;
+    max-width: 1096px;
     gap: 100px;
   }
 
