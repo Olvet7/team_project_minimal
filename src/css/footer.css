@@ -1,41 +1,81 @@
-/* Footer */
-
-.ftr-container {
-    padding: 36px 16px 16px 16px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .footer-page {
-    background-color: var(--blue_font);
-    color: var(--background);
-    width: 375px;
-    margin: 0 auto;
-    font-size: 16px;
-  }
-
-/* Logo & Media Icons */
-.ftr-media-icons {
-    fill: rgba(255, 255, 255, 1);   
-}
-
-.ftr-logo-media {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 36px;
-}
-
-.media {
-    display: flex;
-    gap: 16px;
-}
-
-/* Nav Menu */
-.ftr-nav-menu:not(:last-child) {
-    margin-bottom: 8px;
-}
-
-/* Address */
-
-/* Terms of Service & Privacy Policy */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <footer class="footer-page">
+            <div class="container ftr-container">
+                <div class="logo-media-block">
+                    <div class="logo-media">
+                        <!-- Logo -->
+                        <div class="ftr-logo">
+                            <span class="media-icons ftr-logo"><a href="" class="media-icons"></a>
+                                <svg class="ftr-media" width="100" height="16">
+                                <use href="/img/icons.svg#minimal"></use>
+                                </svg>
+                            </span>
+                        </div>
+                        <!-- Nav Menu -->
+                        <div class="nav">
+                            <ul class="ftr-nav-menu nav-text">
+                                <li class="list"><a href="" rel="noopener norefferrer" target="_blank"></a>About us</li>
+                                <li class="list"><a href="" rel="noopener norefferrer" target="_blank"></a>Our products</li>
+                                <li class="list"><a href="" rel="noopener norefferrer" target="_blank"></a>Prices</li>
+                                <li class="list"><a href="" rel="noopener norefferrer" target="_blank"></a>Bestsellers</li>
+                                <li class="list"><a href="" rel="noopener norefferrer" target="_blank"></a>Reviews</li>
+                            </ul>
+                        </div>
+                        <!-- Address -->
+                        <div class="ftr-address">
+                            <ul class="nav-text">
+                                <li class="list"><a href="https://goo.gl/maps/otmeh9LYeM7hSeMd6" class="link address-map">Obolonsky Prospect, 14, Kyiv</a></li>
+                                <li class="list">Daily 10:00-21:00</li>
+                            </ul>
+                        </div>
+                        <!-- Contacts -->
+                        <div class="ftr-contacts">
+                            <ul class="nav-text">
+                                <li class="list"><a href="tel:+380669384758"></a>+380669384758</li>
+                                <li class="list"><a href="tel:+380679384758"></a>+380679384758</li>
+                                <!-- <li class="list"><a href="minimal.furniture@gmail.com"></a>minimal.furniture@gmail.com</li> -->
+                            </ul>
+                        </div>
+                    </div>  
+                    <!-- Media Icons -->
+                    <ul class="ftr-media-list">
+                        <li class="list media-icons">
+                            <a href="" aria-label="Facebook" rel="noopener norefferrer" target="https://www.facebook.com/"></a>
+                            <svg class="ftr-media" width="28" height="28">
+                            <use href="/img/icons.svg#fb"></use>
+                            </svg>
+                        </li>
+                        <li class="list media-icons">
+                            <a href="" aria-label="Instagram" rel="noopener norefferrer" target="https://www.instagram.com/"></a>
+                            <svg class="ftr-media" width="28" height="28">
+                            <use href="/img/icons.svg#inst"></use>
+                            </svg>
+                        </li>
+                        <li class="list media-icons">
+                            <a href="" aria-label="Youtube" rel="noopener norefferrer" target="https://www.youtube.com/"></a>
+                            <svg class="ftr-media" width="28" height="28">
+                            <use href="/img/icons.svg#youtube"></use>
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Terms of Service & Privacy Policy -->
+                <div>
+                    <p class="ftr-privacy">By using this website, you agree to the <span class="privacy-link">Terms of Service <a href="" class="link"></a></span> and <span class="privacy-link">Privacy Policy <a href="" class="link"></a></span></p>
+                </div>
+            </div>
+            
+    </footer>
+</body>
+</html>
