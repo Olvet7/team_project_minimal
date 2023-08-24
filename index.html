@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
     
     <title>MINIMAL</title>
-    <script type="module" crossorigin src="/team_project_minimal/assets/index-8cbb59d3.js"></script>
-    <link rel="stylesheet" href="/team_project_minimal/assets/index-af754b23.css">
+    <script type="module" crossorigin src="/team_project_minimal/assets/index-9575efa3.js"></script>
+    <link rel="stylesheet" href="/team_project_minimal/assets/index-fce830ce.css">
   </head>
   <body>
     <header class="header">
@@ -53,7 +53,55 @@
     
     
     ENOENT: no such file or directory, open '/home/runner/work/team_project_minimal/team_project_minimal/src/partials/clients_reviews.html'
-    ENOENT: no such file or directory, open '/home/runner/work/team_project_minimal/team_project_minimal/src/partials/subscription.html'
+    <section class="subscription">
+    <div class="subscription-container">
+        <div class="newsleter">
+            <h2 class="title">Newsletter</h2>
+            <p class="text">Every week we will send you new designs and information about sales.</p>
+            <form class="form" id="myForm">
+                <div class="container-user-name">
+                    <label for="user-name" class="label-user-name"></label>
+                    <input type="text" id="user-name" name="user-name" placeholder="Name" class="input-user-name"
+                        pattern=".{2,16}" required>
+                    <svg class="error">
+                        <use href="/team_project_minimal/assets/icons-9d6e4526.svg#icon-error"></use>
+                    </svg>
+                </div>
+                <div class="container-user-email">
+                    <label for="user-email" class="label-user-email"></label>
+                    <input type="email" id="user-email" name="user-email" placeholder="E-mail" class="input-user-email"
+                        required>
+                    <svg class="error">
+                        <use href="/team_project_minimal/assets/icons-9d6e4526.svg#icon-error"></use>
+                    </svg>
+                </div>
+                <div class="container-checkbox">
+                    <input type="checkbox" id="user-agree" name="agree-checkbox" name="user-agree" value="true"
+                        class="input-checkbox  visually-hidden">
+                    <label for="user-agree" class="label-checkbox">
+                        <span class="label-span">
+                            <svg class="svg" width="13" height="13">
+                                <use href="/team_project_minimal/assets/icons-9d6e4526.svg#icon-vector"></use>
+                            </svg>
+                        </span>Agree to subscribe to the newsletter
+                    </label>
+                </div>
+                <button type="submit" class="btn-send">Send</button>
+            </form>
+        </div>
+        <div class="subscription-pic">
+            <picture>
+                <source media="(max-width: 767px)"
+                    srcset="/team_project_minimal/assets/sub-pic-mob-x1-52ea113a.jpg , /team_project_minimal/assets/sub-pic-mob-x2-9289736d.jpg 2x">
+                <source media="(min-width: 768px) and (max-width: 1439px)"
+                    srcset="./img/subscription-img/.jpg, ./img/subscription-img/sub-pic-tab-x2.jpg 2x">
+                <source media="(min-width: 1440px)"
+                    srcset="/team_project_minimal/assets/sub-pic-dec-x1-2dc2e3f3.jpg , /team_project_minimal/assets/sub-pic-dec-x2-3c4a454a.jpg 2x">
+                <img class="subscription-img" src="/team_project_minimal/assets/sub-pic-dec-x1-2dc2e3f3.jpg" alt="book on table">
+            </picture>
+        </div>
+    </div>
+</section>
     ENOENT: no such file or directory, open '/home/runner/work/team_project_minimal/team_project_minimal/src/partials/footer.html'
     
     <section>
