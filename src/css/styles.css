@@ -49,4 +49,9 @@ body {
   padding-right: 16px;
   margin-right: auto;
   margin-left: auto;
+  outline: 2px solid green;
+}
+
+.section {
+  outline: 2px dashed red;
 }
