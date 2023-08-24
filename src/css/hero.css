@@ -52,7 +52,8 @@
 		max-width: 768px;
 		background: none;
 		padding-top: 64px;
-		padding-bottom: 100px
+		padding-bottom: 100px;
+		height: 858px;
 		}
 	.hero .container {
 		padding-top: 0;
@@ -83,14 +84,13 @@
 	.hero-btn {
 		padding: 17px 65px;
 		font-size: 18px;
-	}
-	
+	}	
 }
 @media screen and (min-width: 1440px) {
 	.hero {		
 		max-width: 1440px;
 		min-height: 0;
-		
+		height: 100%;
 		}
 		.hero .container {
 			padding-left: 60px;
@@ -123,7 +123,7 @@ screen and (min-width: 768px) and (min-resolution: 192dpi),
 screen and (min-width: 768px) and (min-resolution: 2dppx) {
 	.hero .container {
 		background-image: url(/img/hero/hero-tablet1-2x.jpg),
-		 url(/img/hero/hero-tablet2-2x.jpg);
+		url(/img/hero/hero-tablet2-2x.jpg);
 	}
 }
 @media screen and (min-width: 1440px) and (min-device-pixel-ratio: 2), 
