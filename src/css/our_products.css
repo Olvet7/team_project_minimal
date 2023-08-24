@@ -1,0 +1,73 @@
+.products-header {
+  color: var(--blue-font, #0a224a);
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 33px;
+}
+.products-list {
+  display: flex;
+
+  gap: 16px;
+  justify-content: center;
+}
+.products-description {
+  color: var(--blue-font, #0a224a);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 16px;
+}
+.products {
+  padding-bottom: 64px;
+}
+.products-item:not(:nth-child(-n + 1)) {
+  display: none;
+}
+@media screen and (min-width: 375px) {
+  .products-header {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .products > .container {
+    padding-left: 32px;
+    padding-right: 32px;
+    max-width: 704px;
+  }
+  .products-item:not(:nth-child(-n + 1)) {
+    display: block;
+  }
+  .products-item:not(:nth-child(-n + 2)) {
+    display: none;
+  }
+  .products-header {
+    font-size: 32px;
+  }
+  .products-description {
+    font-size: 18px;
+  }
+  .products img {
+    width: 344px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .products > .container {
+    padding-left: 60px;
+    padding-right: 60px;
+    max-width: 1320px;
+  }
+  .products-item:not(:nth-child(-n + 2)) {
+    display: block;
+  }
+  .products-list {
+    gap: 24px;
+  }
+  .products img {
+    width: 314px;
+  }
+}
