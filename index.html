@@ -18,8 +18,8 @@
     />
     
     <title>MINIMAL</title>
-    <script type="module" crossorigin src="/team_project_minimal/assets/index-d82f2505.js"></script>
-    <link rel="stylesheet" href="/team_project_minimal/assets/index-cc9c929c.css">
+    <script type="module" crossorigin src="/team_project_minimal/assets/index-848488b8.js"></script>
+    <link rel="stylesheet" href="/team_project_minimal/assets/index-b954507a.css">
   </head>
 
   <body>
@@ -102,17 +102,15 @@
     </header>
     <main>
       <section class="hero">
-	<div class="container">
-			<h1 class="hero-title">
-				Modern and minimalist furniture for you
-			</h1>
-			<p class="hero-text">Add a touch of elegance to your space with handcrafted furniture pieces</p>
-			<button class="hero-btn" type="button">
-				Subscribe
-			</button>
-
-	</div>
+  <div class="container">
+    <h1 class="hero-title">Modern and minimalist furniture for you</h1>
+    <p class="hero-text">
+      Add a touch of elegance to your space with handcrafted furniture pieces
+    </p>
+    <a class="hero-btn" type="button" href="#subscription"> Subscribe </a>
+  </div>
 </section>
+
       <section class="about-us">
   <div class="container">
     <div class="about-us-contant"></div>
@@ -239,55 +237,90 @@
 
       
       
-      <section class="subscription">
-    <div class="container">
-        <div class="newsleter">
-            <h2 class="title">Newsletter</h2>
-            <p class="text">Every week we will send you new designs and information about sales.</p>
-            <form class="form" id="myForm">
-                <div class="container-user-name">
-                    <label for="user-name" class="label-user-name"></label>
-                    <input type="text" id="user-name" name="user-name" placeholder="Name" class="input-user-name"
-                        pattern=".{2,16}" required>
-                    <svg class="error">
-                        <use href="/team_project_minimal/assets/icons-753aa469.svg#icon-error"></use>
-                    </svg>
-                </div>
-                <div class="container-user-email">
-                    <label for="user-email" class="label-user-email"></label>
-                    <input type="email" id="user-email" name="user-email" placeholder="E-mail" class="input-user-email"
-                        required>
-                    <svg class="error">
-                        <use href="/team_project_minimal/assets/icons-753aa469.svg#icon-error"></use>
-                    </svg>
-                </div>
-                <div class="container-checkbox">
-                    <input type="checkbox" id="user-agree" name="agree-checkbox" name="user-agree" value="true"
-                        class="input-checkbox  visually-hidden">
-                    <label for="user-agree" class="label-checkbox">
-                        <span class="label-span">
-                            <svg class="svg" width="13" height="13">
-                                <use href="/team_project_minimal/assets/icons-753aa469.svg#icon-vector"></use>
-                            </svg>
-                        </span>Agree to subscribe to the newsletter
-                    </label>
-                </div>
-                <button type="submit" class="btn-send">Send</button>
-            </form>
+      <section class="subscription" id="subscription">
+  <div class="container">
+    <div class="newsleter">
+      <h2 class="title">Newsletter</h2>
+      <p class="text">
+        Every week we will send you new designs and information about sales.
+      </p>
+      <form class="form" id="myForm">
+        <div class="container-user-name">
+          <label for="user-name" class="label-user-name"></label>
+          <input
+            type="text"
+            id="user-name"
+            name="user-name"
+            placeholder="Name"
+            class="input-user-name"
+            pattern=".{2,16}"
+            required
+          />
+          <svg class="error">
+            <use href="/team_project_minimal/assets/icons-753aa469.svg#icon-error"></use>
+          </svg>
         </div>
-        <div class="subscription-pic">
-            <picture>
-                <source media="(max-width: 767px)"
-                    srcset="/team_project_minimal/assets/sub-pic-mob-x1-52ea113a.jpg , /team_project_minimal/assets/sub-pic-mob-x2-9289736d.jpg 2x">
-                <source media="(min-width: 768px) and (max-width: 1439px)"
-                    srcset="/team_project_minimal/assets/sub-pic-tab-x1-850e7d19.jpg , /team_project_minimal/assets/sub-pic-tab-x2-a42c72f7.jpg 2x">
-                <source media="(min-width: 1440px)"
-                    srcset="/team_project_minimal/assets/sub-pic-dec-x1-2dc2e3f3.jpg , /team_project_minimal/assets/sub-pic-dec-x2-3c4a454a.jpg 2x">
-                <img class="subscription-img" src="/team_project_minimal/assets/sub-pic-dec-x1-2dc2e3f3.jpg" alt="book on table">
-            </picture>
+        <div class="container-user-email">
+          <label for="user-email" class="label-user-email"></label>
+          <input
+            type="email"
+            id="user-email"
+            name="user-email"
+            placeholder="E-mail"
+            class="input-user-email"
+            required
+          />
+          <svg class="error">
+            <use href="/team_project_minimal/assets/icons-753aa469.svg#icon-error"></use>
+          </svg>
         </div>
+        <div class="container-checkbox">
+          <input
+            type="checkbox"
+            id="user-agree"
+            name="agree-checkbox"
+            name="user-agree"
+            value="true"
+            class="input-checkbox visually-hidden"
+          />
+          <label for="user-agree" class="label-checkbox">
+            <span class="label-span">
+              <svg class="svg" width="13" height="13">
+                <use href="/team_project_minimal/assets/icons-753aa469.svg#icon-vector"></use>
+              </svg> </span
+            >Agree to subscribe to the newsletter
+          </label>
+        </div>
+        <button type="submit" class="btn-send">Send</button>
+      </form>
     </div>
+    <div class="subscription-pic">
+      <picture>
+        <source
+          media="(max-width: 767px)"
+          srcset="/team_project_minimal/assets/sub-pic-mob-x1-52ea113a.jpg , /team_project_minimal/assets/sub-pic-mob-x2-9289736d.jpg 2x"
+        />
+        <source
+          media="(min-width: 768px) and (max-width: 1439px)"
+          srcset="
+            ./img/subscription-img/.jpg,
+            ./img/subscription-img/sub-pic-tab-x2.jpg 2x
+          "
+        />
+        <source
+          media="(min-width: 1440px)"
+          srcset="/team_project_minimal/assets/sub-pic-dec-x1-2dc2e3f3.jpg , /team_project_minimal/assets/sub-pic-dec-x2-3c4a454a.jpg 2x"
+        />
+        <img
+          class="subscription-img"
+          src="/team_project_minimal/assets/sub-pic-dec-x1-2dc2e3f3.jpg"
+          alt="book on table"
+        />
+      </picture>
+    </div>
+  </div>
 </section>
+
     </main>
 
     
