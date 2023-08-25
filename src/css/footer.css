@@ -11,7 +11,7 @@ display: flex;
 flex-direction: column;
 background-color: var(--blue-font);
 height: 523px;
-width: 375px;
+max-width: 375px;
 color: var(#FFF);
 justify-content: space-between;
 }
@@ -24,6 +24,10 @@ font-size: 16px;
 }
 
 @media screen and (min-width: 768px) {
+    .container {
+        min-width: 768px;
+    }
+
     .footer-page {
         padding-top: 36px;
         padding-bottom: 36px;
@@ -49,6 +53,17 @@ font-size: 16px;
 
 .ftr-media {
     margin-bottom: 42px;
+}
+
+@media screen and (min-width: 768px) {
+    .ftr-media {
+        margin-bottom: 32px;
+    }
+
+    .ftr-nav-menu {
+        order: 3;
+    }
+
 }
 
 .ftr-logo-media {
