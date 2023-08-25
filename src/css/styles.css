@@ -18,16 +18,16 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #0A224A;
-  background-color: #FFF;
+  color: #0a224a;
+  background-color: #fff;
 }
 
 :root {
-  --blue-font: #0A224A;
-  --background_1: #7A7A7A;
-  --background_2: #B6B6B6;
-  --background_3: #D9D9D9;
-  --light-blue: #F7FAFF;
+  --blue-font: #0a224a;
+  --background_1: #7a7a7a;
+  --background_2: #b6b6b6;
+  --background_3: #d9d9d9;
+  --light-blue: #f7faff;
 
   /* font-size: 18px;
   line-height: 24px;
@@ -49,7 +49,7 @@ body {
   padding-right: 16px;
   margin-right: auto;
   margin-left: auto;
-  outline: 2px solid green;
+  outline: 2px dashed green;
 }
 
 @media screen and (min-width: 768px) {
@@ -64,9 +64,4 @@ body {
     padding: 0 60px;
     max-width: 1440px;
   }
-}
-
-
-.section {
-  outline: 2px dashed red;
 }
