@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: var(--blue_font);
     }
     
     .top-block {
@@ -59,7 +60,7 @@
     .footer-page {
         border-top: 36px;
         padding-bottom: 16px;
-        background-color: var(--blue_font);
+        background-color: var(--blue-font);
     }
     
     @media screen and (min-width: 768px) {
@@ -73,7 +74,7 @@
     .ftr-container {
         padding: 0 16px;
         position: relative;
-        background-color: var(--blue_font);
+        background-color: var(--blue-font);
     }
     
     .logo-media-block {
