@@ -16,10 +16,19 @@ margin: 0 auto;
 font-size: 16px;
 }
 
+.logo-media-block {
+    display: flex;
+}
+
+
 /* Logo & Media Icons */
 
 .ftr-media {
     fill: rgba(255, 255, 255, 1);  
+}
+
+.ftr-media {
+    margin-bottom: 42px;
 }
 
 .ftr-logo-media {
@@ -34,11 +43,36 @@ font-size: 16px;
     gap: 16px;
 }
 
+.ftr-media-list {
+    display: flex;
+    gap: 16px;
+}
+
 /* Nav Menu */
-.ftr-nav-menu:not(:last-child) {
-    margin-bottom: 8px;
+
+.ftr-nav-menu {
+    margin-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.nav-text {
+    color: #FFF;
+}
+
+.ftr-link-menu {
+    cursor: pointer;
 }
 
 /* Address */
+.ftr-address {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
 
 /* Terms of Service & Privacy Policy */
+.ftr-privacy {
+    color: white;
+}
