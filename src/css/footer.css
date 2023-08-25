@@ -11,15 +11,30 @@ display: flex;
 flex-direction: column;
 background-color: var(--blue-font);
 height: 523px;
+width: 375px;
 color: var(#FFF);
 justify-content: space-between;
 }
     
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
 .footer-page {
 background-color: var(--blue-font);
 width: 375px;
 margin: 0 auto;
 font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-page {
+        padding-top: 36px;
+        padding-bottom: 36px;
+        width: 768px;
+    }
 }
 
 .logo-media-block {
@@ -70,6 +85,10 @@ font-weight: 400;
 line-height: 1.5em;
 }
 
+.ftr-contacts > .nav-text:last-child {
+    display: no;
+}
+
 .ftr-link-menu {
     cursor: pointer;
 }
@@ -95,11 +114,23 @@ line-height: 1.5em;
     color: white;
 }
 
-.ftr-privacy-tex {
+.ftr-privacy-block {
+    display: inline-block;
+    padding-bottom: 16px;
+    width: 343px;
+    height: 28px;
+}
+
+.ftr-privacy-text {
+opacity: 0.6;
 color: var(--white, #FFF);
 text-align: center;
 font-size: 12px;
 font-weight: 400;
-line-height: 0.8750em;
+line-height: 1.16em;
 letter-spacing: 1.188px;
+}
+
+.privacy-link {
+    text-decoration: underline;
 }

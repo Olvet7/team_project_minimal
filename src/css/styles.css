@@ -52,6 +52,21 @@ body {
   outline: 2px solid green;
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 32px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: 0 60px;
+    max-width: 1440px;
+  }
+}
+
+
 .section {
   outline: 2px dashed red;
 }
