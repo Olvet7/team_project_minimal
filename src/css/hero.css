@@ -51,8 +51,7 @@
     max-width: 768px;
     background: none;
     padding-top: 64px;
-    padding-bottom: 100px;
-    height: 858px;
+    padding-bottom: 266px;
   }
   .hero .container {
     padding-top: 0;
@@ -89,6 +88,8 @@
     height: 100%;
   }
   .hero .container {
+    display: flex;
+    justify-content: space-between;
     padding-left: 60px;
     padding-right: 60px;
     background-repeat: no-repeat;
@@ -99,12 +100,15 @@
     background-position: 60px bottom, 395px bottom, 1068px top;
     background-size: 310px 329px, 648px 530px, 312px 337px;
   }
+  .hero-text-block {
+    align-self: flex-end;
+  }
   .hero-title {
-    margin-bottom: 232px;
+    /* margin-bottom: 232px; */
   }
   .hero-text,
   .hero-btn {
-    margin-left: 1008px;
+    /* margin-left: 1008px; */
   }
 }
 
