@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /* Footer */
 
 .block-1 {
@@ -168,3 +169,194 @@
         text-decoration-line: underline;
     }
     
+=======
+span {
+  margin: 0;
+  padding: 0;
+}
+
+.ftr-media {
+  fill: rgba(255, 255, 255, 1);
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+/* Footer */
+
+.ftr-container {
+  padding: 36px 16px 16px 16px;
+  flex-direction: column;
+  background-color: var(--blue-font);
+  max-width: 375px;
+  color: var(#fff);
+  display: flex;
+  position: relative;
+}
+
+.footer-page {
+  background-color: var(--blue-font);
+  width: 375px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.footer-email {
+  display: none;
+}
+
+/* Nav Menu */
+
+.ftr-nav-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 32px 0;
+}
+
+.nav-text {
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* Address */
+
+.nav-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Contacts */
+.ftr-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+/* Terms of Service & Privacy Policy */
+.ftr-privacy {
+  color: white;
+}
+
+.ftr-privacy-block {
+  padding-bottom: 16px;
+  width: 343px;
+  height: 28px;
+  display: flex;
+}
+
+.ftr-privacy-text {
+  opacity: 0.6;
+  color: var(--white, #fff);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: 0.099em;
+  text-align: center;
+  width: 343px;
+  height: 28px;
+}
+
+.privacy-link {
+  text-decoration: underline;
+  display: inline;
+}
+.ftr-media-list {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.footer-logo-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .ftr-container {
+    min-width: 768px;
+    padding: 36px 32px;
+    margin: 0 auto;
+  }
+
+  .footer-page {
+    width: 100%;
+  }
+  .footer-email {
+    display: initial;
+  }
+
+  .ftr-nav-menu {
+    margin: 0;
+    padding: 8px;
+    gap: 16px;
+    width: 120px;
+    height: 215px;
+    font-size: 18px;
+    line-height: 1.5;
+    position: absolute;
+    left: 368px;
+  }
+  .ftr-address {
+    margin-top: 32px;
+    margin-bottom: 64px;
+  }
+  .nav-text {
+    gap: 24px;
+  }
+  .ftr-privacy-text {
+    width: 616px;
+    height: 20px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.0742em;
+  }
+  .ftr-contacts {
+    margin-top: 0;
+  }
+  .ftr-privacy-block {
+    width: 616px;
+    height: 20px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .ftr-container {
+    min-width: 1440px;
+    padding: 48px 60px 36px 60px;
+  }
+  .ftr-nav-menu {
+    flex-direction: row;
+    gap: 30px;
+    width: 502px;
+    height: 27px;
+    box-sizing: initial;
+    left: 335px;
+  }
+  .ftr-address {
+    margin-top: 39px;
+    margin-bottom: 35px;
+  }
+  .ftr-contacts .nav-text {
+    flex-direction: row;
+    width: 481px;
+    height: 68px;
+    flex-wrap: wrap;
+    gap: 24px 82px;
+    display: flex;
+  }
+  .ftr-contacts {
+    margin-bottom: 35px;
+    position: absolute;
+    left: 335px;
+    bottom: 60px;
+  }
+  .phone-order {
+    order: 2;
+  }
+}
+>>>>>>> Stashed changes
