@@ -3,7 +3,7 @@
   background-color: #fff;
 }
 
-.title {
+.subscription-title {
   color: var(--blue-font, #0a224a);
   font-size: 28px;
   font-weight: 400;
@@ -13,7 +13,7 @@
   margin-bottom: 20px;
 }
 
-.text {
+.subscription-text {
   color: var(--blue-font, #0a224a);
   font-size: 16px;
   line-height: 1.5;
@@ -161,14 +161,14 @@ form {
     padding: 0 32px;
   }
 
-  .title {
+  .subscription-title {
     text-align: left;
     font-size: 32px;
     line-height: 1.4;
     margin-bottom: 30px;
   }
 
-  .text {
+  .subscription-text {
     font-size: 18px;
     max-width: 536px;
     margin-bottom: 20px;
