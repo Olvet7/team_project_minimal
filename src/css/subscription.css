@@ -157,7 +157,8 @@ form {
   }
 
   .subscription .container {
-    max-width: 734px;
+    max-width: 768px;
+    padding: 0 32px;
   }
 
   .title {
@@ -216,11 +217,13 @@ form {
   .subscription .container {
     display: flex;
     justify-content: center;
-    max-width: 1096px;
+    max-width: 1216px;
     gap: 100px;
+    padding: 0 60px;
   }
 
   .btn-send {
     margin-bottom: 0;
+    margin-top: 23px;
   }
 }
