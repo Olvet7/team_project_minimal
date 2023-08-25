@@ -1,0 +1,77 @@
+.contaiiner {
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.clients {
+    background-color: #F7FAFF;
+    padding: 36px 0;
+}
+
+
+.clients-title {
+            max-width: 233px;
+            font-size: 25px;
+            line-height: 1.5;
+            text-transform: uppercase;
+            color: #0A224A;
+            margin-bottom: 30px;
+            margin: 0 auto;
+}
+
+.clients-subtitle {
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+text-transform: uppercase;
+color: #0A224A;
+}
+
+.clients-item {
+    background-color: #fff;
+}
+
+.clients-pic {
+    margin-top: 24px;
+    border-radius: 48px;
+}
+
+.info-wrap {
+    display: flex;
+    margin-left: 15px;
+}
+
+.text-wrap {
+    display: block;
+    margin-left: 14px;
+    margin-top: 24px;
+}
+
+.clients-bio {
+    max-width: 280px;
+}
+
+
+@media screen and (min-width: 375px) {
+    
+.container {
+    max-width: 373px;
+}
+
+.clients-title {
+    font-size: 28px;
+}
+
+
+.clients-pic {
+  margin-left: 24px;
+  margin-top: 24px;
+    }
+
+
+
+
+
+
+}
