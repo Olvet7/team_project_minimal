@@ -1,0 +1,44 @@
+/* Footer */
+
+.ftr-container {
+padding: 36px 16px 16px 16px;
+display: flex;
+flex-direction: column;
+background-color: var(--blue-font);
+height: 523px;
+color: var(#FFF);
+}
+    
+.footer-page {
+background-color: var(--blue-font);
+width: 375px;
+margin: 0 auto;
+font-size: 16px;
+}
+
+/* Logo & Media Icons */
+
+.ftr-media {
+    fill: rgba(255, 255, 255, 1);  
+}
+
+.ftr-logo-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.media {
+    display: flex;
+    gap: 16px;
+}
+
+/* Nav Menu */
+.ftr-nav-menu:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+/* Address */
+
+/* Terms of Service & Privacy Policy */
