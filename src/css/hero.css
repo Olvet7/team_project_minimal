@@ -6,7 +6,6 @@
   margin: 0 auto;
   background-image: url(/img/hero/hero-mobile.jpg);
   background-size: auto 717px;
-  outline: 2px dashed red;
 }
 .hero .container {
   padding-top: 140px;
@@ -36,7 +35,6 @@
   background: var(--blue-font, #0a224a);
   color: var(--white, #fff);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -48,19 +46,15 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    max-width: 768px;
+    max-width: 100%;
     background: none;
     padding-top: 64px;
     padding-bottom: 266px;
   }
   .hero .container {
     padding-top: 0;
-    padding-left: 32px;
-    padding-right: 32px;
-
     background-repeat: no-repeat;
     height: 531px;
-    max-width: 768px;
     background-image: url(../img/hero/hero-tablet1.jpg),
       url(../img/hero/hero-tablet2.jpg);
     background-position: 32px bottom, 372px bottom;
@@ -83,7 +77,7 @@
 }
 @media screen and (min-width: 1440px) {
   .hero {
-    max-width: 1440px;
+    max-width: 100%;
     min-height: 0;
     height: 100%;
     padding-bottom: 100px;
@@ -91,11 +85,7 @@
   .hero .container {
     display: flex;
     justify-content: space-between;
-    padding-left: 60px;
-    padding-right: 60px;
     background-repeat: no-repeat;
-    height: 531px;
-    max-width: 1440px;
     background-image: url(/img/hero/hero-desktop1.jpg),
       url(/img/hero/hero-desktop2.jpg), url(/img/hero/hero-desktop3.jpg);
     background-position: 60px bottom, 395px bottom, 1068px top;
