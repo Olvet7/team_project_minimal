@@ -1,3 +1,8 @@
+span {
+    margin: 0;
+    padding: 0;
+}
+
 /* Footer */
 
 .ftr-container {
@@ -7,6 +12,7 @@ flex-direction: column;
 background-color: var(--blue-font);
 height: 523px;
 color: var(#FFF);
+justify-content: space-between;
 }
     
 .footer-page {
@@ -58,7 +64,10 @@ font-size: 16px;
 }
 
 .nav-text {
-    color: #FFF;
+color: var(--white, #FFF);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5em;
 }
 
 .ftr-link-menu {
@@ -70,9 +79,27 @@ font-size: 16px;
     display: flex;
     flex-direction: column;
     gap: 8px;
+    margin-bottom: 35px;
+}
+
+/* Contacts */
+.ftr-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: auto;
 }
 
 /* Terms of Service & Privacy Policy */
 .ftr-privacy {
     color: white;
+}
+
+.ftr-privacy-tex {
+color: var(--white, #FFF);
+text-align: center;
+font-size: 12px;
+font-weight: 400;
+line-height: 0.8750em;
+letter-spacing: 1.188px;
 }
