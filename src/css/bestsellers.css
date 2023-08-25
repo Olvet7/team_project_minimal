@@ -1,0 +1,41 @@
+.bestsellers {
+}
+
+.bestsellers-container {
+  margin-bottom: 64px;
+}
+
+.bestsellers-title {
+  font-size: 28px;
+  font-style: normal;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 21px;
+}
+.bestsellers-image-wrap {
+  margin-bottom: 30px;
+}
+.bestsellers-image {
+  margin-bottom: 14px;
+}
+.bestsellers-subtitle {
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.bestsellers-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.bestsellers-list {
+}
+.bestsellers-item {
+}
+.bestsellers-item-wrap {
+}
+.bestsellers-image {
+}
