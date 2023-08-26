@@ -24,11 +24,6 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        padding-top: 36px;
-        width: 468px;
-    }
-
     .ftr-container {
         padding: 36px 32px 36px 32px;
         padding-top: 36px;
