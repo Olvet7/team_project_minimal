@@ -142,11 +142,35 @@ p {
     margin-bottom: 64px;
 }
 
-.ftr-privacy-block {
-    position: absolute;
-    bottom: 16px;
-    left: 50%;
-    transform: translateX(-50%);
+@media screen and (max-width: 767px) {
+    .footer-email {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ftr-privacy-block {
+        bottom: 36px;
+        left: -50%;
+        /* transform: translateX(50%); */
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .ftr-privacy-block {
+        bottom: 36px;
+        left: -50%;
+        transform: translateX(50%);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ftr-privacy-block {
+        position: absolute;
+        bottom: 16px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 .ftr-privacy {
