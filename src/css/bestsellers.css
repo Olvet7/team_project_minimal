@@ -3,11 +3,8 @@
 
 .bestsellers-container {
   margin-bottom: 64px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100%;
 }
-
 .bestsellers-title {
   font-size: 28px;
   font-style: normal;
@@ -16,25 +13,56 @@
   text-align: center;
   margin-bottom: 21px;
 }
-.bestsellers-list {
+
+.bestsellers-images-wrap {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 30px;
 }
-.bestsellers-image {
+.bestsellers-big_image {
   margin-bottom: 14px;
 }
-.bestsellers-subtitle {
+.bestsellers-big_image-subtitle {
   font-size: 18px;
   font-style: normal;
   line-height: 1.5;
   margin-bottom: 10px;
+  width: 343px;
 }
-.bestsellers-text {
+.bestsellers-big_image-text {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.5;
+  width: 343px;
+}
+
+.bestsellers-list-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.bestsellers-list {
+}
+
+.bestsellers-little_image {
+  margin-bottom: 15px;
+}
+.bestsellers-little_image-subtitle {
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  width: 258px;
+}
+.bestsellers-little_image-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  width: 258px;
 }
 
 .bestsellers-item:nth-child(n + 3) {
@@ -46,29 +74,55 @@
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
+    margin-bottom: 100px;
+  }
+  .bestsellers-title {
+    font-size: 32px;
+    font-style: normal;
+    line-height: 1.4;
+    margin-bottom: 30px;
+  }
+  .bestsellers-images-wrap {
+    gap: 32px;
   }
   .bestsellers-big_image {
     width: 704px;
   }
+  .bestsellers-big_image-subtitle {
+    width: 397px;
+  }
+  .bestsellers-big_image-text {
+    width: 397px;
+  }
   .bestsellers-item:nth-child(n + 3) {
     display: block;
   }
-  .bestsellers-list {
-    display: flex;
+  .bestsellers-list-wrap {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 32;
-    width: calc(100% - 32 px) / 2;
+    gap: 32px;
+
+    width: calc((100% - 32px) / 2);
   }
 }
 
 @media screen and (min-width: 1440px) {
+  .bestsellers-container {
+    max-width: 1096px;
+    /*min-width: 1440px;
+    padding-left: 172px;
+    padding-right: 172px;*/
+  }
+  .bestsellers-images-wrap {
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+  }
   .bestsellers-big_image {
     width: 536px;
   }
-  .bestsellers-container {
-    max-width: 1440px;
-    padding-left: 172px;
-    padding-right: 172px;
+  .bestsellers-list-wrap {
+    gap: 30px 20px;
+    width: calc((100% - 20px) / 2);
   }
 }
