@@ -51,18 +51,6 @@
     }
 }
 
-<<<<<<< Updated upstream
-.ftr-page {
-    font-size: 16px;
-    max-height: 462px;
-}
-
-.ftr-page .container {
-    height: 523px;
-}
-
-=======
->>>>>>> Stashed changes
 .ftr-media-list {
     display: flex;
     gap: 16px;
