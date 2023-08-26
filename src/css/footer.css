@@ -135,6 +135,8 @@ p {
 }
 
 .ftr-privacy-block {
-    position: absolute;
     bottom: 16px;
+    margin: 0 auto;
+    width: 343px;
+    height: 28px;
 }
