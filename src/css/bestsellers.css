@@ -115,21 +115,30 @@
 @media screen and (min-width: 1440px) {
   .bestsellers-container {
     min-width: 1440px;
-    padding-left: 172px;
-    padding-right: 172px;
+    padding: 0 172px;
   }
   .bestsellers-images-wrap {
     flex-direction: row;
     align-items: center;
     gap: 24px;
   }
-  .bestsellers-big_image {
-    width: 536px;
+  .bestsellers-big_image-wrap {
+    max-width: 536px;
   }
-  .bestsellers-list-wrap {
+  .bestsellers-big_image {
+    width: 100%;
+  }
+  .bestsellers-little_image {
+    width: 100%;
+  }
+  .bestsellers-list {
+    width: 536px;
     gap: 30px 20px;
   }
   .bestsellers-item {
     width: calc((100% - 20px) / 2);
+  }
+  .bestsellers-little_image {
+    width: 100%;
   }
 }
