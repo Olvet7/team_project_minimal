@@ -30,8 +30,8 @@ button {
   top: -100px;
 }
 
-.header-container {
-  max-width: 320px;
+.header .container {
+  max-width: 375px;
   padding: 0 16px;
   height: 88px;
   margin: 0 auto;
@@ -94,13 +94,10 @@ main {
 }
 
 @media screen and (min-width: 375px) {
-  .header-container {
-    max-width: 375px;
-  }
 }
 
 @media screen and (min-width: 768px) {
-  .header-container {
+  .header .container {
     max-width: 768px;
     padding: 0 32px;
   }
@@ -118,7 +115,7 @@ main {
 }
 
 @media screen and (min-width: 1440px) {
-  .header-container {
+  .header .container {
     max-width: 1440px;
     padding: 0 60px;
   }
