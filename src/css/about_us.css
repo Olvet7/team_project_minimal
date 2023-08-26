@@ -27,18 +27,13 @@
 }
 .about-us-subtitle {
   font-size: 26px;
-  line-height: 1.5;
+  line-height: 150%;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
 .about-us-text {
   line-height: 1.5;
   margin-bottom: 30px;
-}
-
-.about-us-statistic-list {
-}
-.about-us-statistic-item {
 }
 
 .about-us-statistic-item:not(:last-child) {
@@ -79,7 +74,7 @@
   }
   .about-us-subtitle {
     font-size: 32px;
-    line-height: 1.41;
+    line-height: 140.625%;
   }
   .about-us-text {
     font-size: 18px;
@@ -92,6 +87,7 @@
   .about-us-statistic-list {
     display: flex;
     gap: 33px;
+    align-items: center;
   }
 
   .about-us-statistic-item:not(:last-child) {
@@ -99,5 +95,29 @@
   }
   .about-us-statistic-item {
     width: calc((100% - 3 * 33px) / 2);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-us .container {
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .about-us-content {
+    margin-bottom: 0;
+    padding: 36px 69px;
+    max-width: 760px;
+  }
+  .about-us-statistic-item:nth-child(1) .about-us-statistic-number {
+    margin-bottom: 23px;
+  }
+  .about-us-statistic-item:nth-child(2) .about-us-statistic-number {
+    margin-bottom: 19px;
+  }
+  .about-us-statistic-item:nth-child(3) .about-us-statistic-number {
+    margin-bottom: 20px;
   }
 }
