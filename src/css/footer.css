@@ -31,6 +31,7 @@
 .ftr-page .container {
     color: #fff;
     max-width: 375px;
+    height: 523px;
     margin: 0 auto;
     padding: 36px 16px 16px 16px;
     position: relative;
@@ -50,6 +51,7 @@
     }
 }
 
+<<<<<<< Updated upstream
 .ftr-page {
     font-size: 16px;
     max-height: 462px;
@@ -59,6 +61,8 @@
     height: 523px;
 }
 
+=======
+>>>>>>> Stashed changes
 .ftr-media-list {
     display: flex;
     gap: 16px;
