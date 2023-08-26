@@ -73,9 +73,6 @@
 } */
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
 
   .clients-title {
     font-size: 32px;
