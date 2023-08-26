@@ -15,7 +15,9 @@
 @import url('./clients_reviews.css');
 @import url('./subscription.css');
 @import url('./footer.css');
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Roboto', sans-serif;
   color: #0a224a;
