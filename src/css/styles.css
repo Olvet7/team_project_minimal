@@ -30,18 +30,6 @@ body {
   --background_2: #b6b6b6;
   --background_3: #d9d9d9;
   --light-blue: #f7faff;
-
-  /* font-size: 18px;
-  line-height: 24px;
-  font-weight: 400; */
-  /* color: #242424;
-  background-color: rgba(255, 255, 255, 0.87); */
-
-  /* font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%; */
 }
 
 .container {
