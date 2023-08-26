@@ -14,6 +14,22 @@ p {
     margin-bottom: 6px;
   }
 
+  .ftr-logo-media {
+    fill: rgba(255, 255, 255, 1);
+  }
+
+@media screen and (min-width: 768px) {
+    .ftr-media {
+        width: 40px;
+        height: 40px;
+    }
+
+    .ftr-logo-media{
+        width: 127px;
+        height: 16px;
+    }
+}
+
 .ftr-page .container {
     background-color: var(--blue-font);
     color: #fff;
@@ -55,6 +71,9 @@ p {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: center;
+    height: 28px;
+    margin-bottom: 36px;
 }
 
 @media screen and (min-width: 768px) {
