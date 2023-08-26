@@ -35,10 +35,13 @@
   line-height: 1.77;
   text-transform: uppercase;
   color: #0a224a;
+  margin-bottom: 0;
 }
 
 .clients-pic {
+  height: 48px;
   border-radius: 48px;
+  align-items: center;
 }
 
 .info-wrap {
@@ -87,6 +90,7 @@
 
   .clients-item {
     width: calc((100% - 16px) / 2);
+    max-width: 344px;
   }
 
   .clients-item:not(:first-child) {
@@ -97,14 +101,21 @@
     display: none;
   }
 
-  .text-wrap {
-  }
+    .clients-pic {
+      border-radius: 56px;
+      width: 56px;
+      height: 56px;
+      margin: auto;
+      margin-left: 0;
+      margin-right: 0;
+    }
 
   .clients-subtitle {
     font-size: 20px;
     line-height: 2.25;
     text-transform: uppercase;
     color: #0a224a;
+    margin-bottom: 0;
   }
 
   .clients-info {
@@ -136,5 +147,7 @@
 
   .clients-item {
     width: calc((100% - 48px) / 3);
+    max-width: 424px;
+    padding: 32px;
   }
 }
