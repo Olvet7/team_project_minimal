@@ -78,7 +78,8 @@ p {
 
 @media screen and (min-width: 768px) {
     .logo-ftr-icons {
-        align-items: baseline;
+        height: 40px;
+        align-items: center;
     }
 
     .ftr-contacts {
@@ -110,6 +111,8 @@ p {
     .ftr-privacy-text {
         width: 616px;
         height: 20px;
+        font-size: 16px;
+        line-height: 1.25em;
     }
 }
 
@@ -130,6 +133,10 @@ p {
         position: absolute;
         top: 36px;
         right: 248px;
+        font-size: 18px;
+        margin: unset;
+        padding: 6px;
+        gap: 16px;
     }
 }
 
@@ -138,12 +145,18 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-
     .ftr-address {
         margin-bottom: unset;
         position: absolute;
         top: 96px;
         left: 32px;
+        font-size: 19px;
+    }
+
+    .ftr-address-text {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
     }
 }
 
