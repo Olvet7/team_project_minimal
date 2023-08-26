@@ -66,7 +66,7 @@ main {
 .mob-menu-open-btn {
   background-color: transparent;
   border: transparent;
-  stroke: #0a224a;
+  stroke: var(--blue-font);
 }
 
 .mob-menu {
@@ -89,7 +89,7 @@ main {
   margin-top: 114px;
 }
 .mob-nav-link {
-  color: #0a224a;
+  color: var(--blue-font);
   font-size: 16px;
 }
 
@@ -135,7 +135,7 @@ main {
     margin: 0;
   }
   .header-nav-link {
-    color: #0a224a;
+    color: var(--blue-font);
   }
   .logo-link {
     padding: 38px 0;
