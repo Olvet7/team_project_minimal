@@ -6,7 +6,6 @@
 .subscription-title {
   color: var(--blue-font, #0a224a);
   font-size: 28px;
-  font-weight: 400;
   line-height: 1.5;
   text-transform: uppercase;
   text-align: center;
@@ -20,7 +19,7 @@
   margin-bottom: 30px;
 }
 
-form {
+.form {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -156,11 +155,6 @@ form {
     padding: 100px 0;
   }
 
-  .subscription .container {
-    max-width: 704px;
-    padding: 0;
-  }
-
   .subscription-title {
     text-align: left;
     font-size: 32px;
@@ -217,7 +211,6 @@ form {
   .subscription .container {
     display: flex;
     justify-content: center;
-    max-width: 1096px;
     gap: 100px;
   }
 
