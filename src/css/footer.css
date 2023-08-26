@@ -164,11 +164,13 @@ p {
     }
 }
 
-
-.ftr-privacy-block {
-    /* bottom: 16px;
-    left: 50%;
-    transform: translateX(-50%); */
+@media screen and (min-width: 768px) {
+    .ftr-privacy-block {
+        position: absolute;
+        bottom: 16px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 .ftr-privacy {
