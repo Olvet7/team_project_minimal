@@ -30,7 +30,15 @@ p {
     }
 }
 
+<<<<<<< Updated upstream
 .ftr-page {
+=======
+.ftr-page .container {
+    height: 523px;
+}
+
+.ftr-page .container {
+>>>>>>> Stashed changes
     background-color: var(--blue-font);
 }
 
@@ -56,6 +64,7 @@ p {
     }
 }
 
+<<<<<<< Updated upstream
 .ftr-page {
     font-size: 16px;
     max-height: 462px;
@@ -65,6 +74,8 @@ p {
     height: 523px;
 }
 
+=======
+>>>>>>> Stashed changes
 .ftr-media-list {
     display: flex;
     gap: 16px;
@@ -183,13 +194,13 @@ p {
     }
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .ftr-privacy-block {
         bottom: 36px;
         left: -50%;
         /* transform: translateX(50%); */
     }
-}
+} */
 
 @media screen and (min-width: 1440px) {
     .ftr-privacy-block {
