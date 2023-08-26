@@ -66,3 +66,38 @@
     font-size: 50px;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .about-us {
+    padding-bottom: 100px;
+  }
+  .about-us .container {
+    padding: 0 32px;
+  }
+  .about-us-content {
+    padding: 36px 64px;
+  }
+  .about-us-subtitle {
+    font-size: 32px;
+    line-height: 1.41;
+  }
+  .about-us-text {
+    font-size: 18px;
+  }
+
+  .about-us-content {
+    margin-bottom: 30px;
+  }
+
+  .about-us-statistic-list {
+    display: flex;
+    gap: 33px;
+  }
+
+  .about-us-statistic-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .about-us-statistic-item {
+    width: calc((100% - 3 * 33px) / 2);
+  }
+}
