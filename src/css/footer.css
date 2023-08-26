@@ -19,12 +19,13 @@ span {
   color: var(#fff);
   display: flex;
   position: relative;
+  margin: 0 auto;
 }
 
 .footer-page {
   background-color: var(--blue-font);
-  max-width: 375px;
-  margin: 0 auto;
+  /* width: 375px; */
+  /* margin: 0 auto; */
   font-size: 16px;
 }
 
@@ -106,14 +107,17 @@ span {
 }
 @media screen and (min-width: 768px) {
   .ftr-container {
-    min-width: 768px;
+    max-width: 768px;
     padding: 36px 32px;
     margin: 0 auto;
   }
 
   .footer-page {
     width: 100%;
+    padding-top: 44px;
+    padding-bottom: 36px;
   }
+  
   .footer-email {
     display: initial;
   }
@@ -156,7 +160,10 @@ span {
   .ftr-container {
     min-width: 1440px;
     padding: 48px 60px 36px 60px;
+    max-width: 1440px;
+    margin: 0 auto;
   }
+
   .ftr-nav-menu {
     flex-direction: row;
     gap: 30px;
