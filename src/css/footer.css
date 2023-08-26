@@ -98,13 +98,17 @@ p {
 }
 
 @media screen and (min-width: 1440px) {
-    .ftr-contacts {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+    .ftr-contacts .ftr-address-text {
+        flex-direction: row;
+        width: 481px;
         height: 68px;
-        column-gap: 24px;
-        row-gap: 82px;
+        flex-wrap: wrap;
+        gap: 24px 82px;
+        display: flex;
+    }
+
+    .phone-order {
+        order: 2;
     }
 }
 
