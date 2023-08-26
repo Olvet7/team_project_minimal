@@ -24,7 +24,7 @@ span {
 
 .footer-page {
   background-color: var(--blue-font);
-  max-width: 375px;
+  width: 375px;
   /* margin: 0 auto; */
   font-size: 16px;
 }
@@ -114,6 +114,8 @@ span {
 
   .footer-page {
     width: 100%;
+    padding-top: 44px;
+    padding-bottom: 36px;
   }
   
   .footer-email {
