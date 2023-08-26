@@ -1,8 +1,8 @@
 .bestsellers {
+  padding-bottom: 64px;
 }
 
 .bestsellers-container {
-  margin-bottom: 64px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -73,11 +73,14 @@
 }
 
 @media screen and (min-width: 768px) {
+  .bestsellers {
+    padding-bottom: 100px;
+  }
+
   .bestsellers-container {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
-    margin-bottom: 100px;
   }
   .bestsellers-title {
     font-size: 32px;
@@ -115,7 +118,8 @@
 @media screen and (min-width: 1440px) {
   .bestsellers-container {
     min-width: 1440px;
-    padding: 0 172px;
+    padding-left: 172px;
+    padding-right: 172px;
   }
   .bestsellers-images-wrap {
     flex-direction: row;
@@ -133,7 +137,7 @@
   }
   .bestsellers-list {
     width: 536px;
-    gap: 30px 20px;
+    gap: 24px 20px;
   }
   .bestsellers-item {
     width: calc((100% - 20px) / 2);
