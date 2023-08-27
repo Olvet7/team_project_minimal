@@ -42,7 +42,7 @@ section {
   padding-right: 16px;
   margin-right: auto;
   margin-left: auto;
-  outline: 2px dashed green;
+  /* outline: 2px dashed green; */
 }
 
 @media screen and (min-width: 768px) {
