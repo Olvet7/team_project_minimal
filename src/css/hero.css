@@ -42,7 +42,15 @@
 .hero-btn:hover {
   background-color: #061835;
 }
-
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .hero .container {
+    position: relative;
+  }
+  .hero-text-block {
+    position: absolute;
+    top: 562px;
+  }
+}
 @media screen and (min-width: 768px) {
   .hero {
     max-width: 100%;
@@ -60,7 +68,6 @@
     background-size: 308px 329px, 367px 100%;
   }
   .hero-title {
-    margin-bottom: 410px;
     width: 648px;
     font-size: 50px;
   }
