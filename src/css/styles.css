@@ -23,6 +23,9 @@ body {
   color: #0a224a;
   background-color: #fff;
 }
+section {
+  scroll-margin-top: 88px;
+}
 
 :root {
   --blue-font: #0a224a;
