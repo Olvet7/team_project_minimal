@@ -51,6 +51,7 @@
     padding-bottom: 266px;
   }
   .hero .container {
+    background-repeat: no-repeat;
     padding-top: 0;
     height: 531px;
     background-image: url(../img/hero/hero-tablet1.jpg),
