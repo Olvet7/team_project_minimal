@@ -27,8 +27,11 @@
     }
 }
 
-.ftr-page .container {
+.ftr-page {
     background-color: var(--blue-font);
+}
+
+.ftr-page .container {
     color: #fff;
     max-width: 375px;
     margin: 0 auto;
