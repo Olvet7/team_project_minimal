@@ -8,6 +8,13 @@
     fill: rgba(255, 255, 255, 1);
   }
 
+
+@media screen and (min-width: 375px) {
+ .ftr-privacy-block {
+    width: 343px;
+ }
+}
+  
 @media screen and (min-width: 768px) {
     .ftr-media {
         width: 40px;
@@ -235,9 +242,9 @@
     }
 }
 
-.ftr-privacy {
+/* .ftr-privacy {
     width: 343px;
-}
+} */
 
 @media screen and (min-width: 768px) {
     .ftr-privacy {
