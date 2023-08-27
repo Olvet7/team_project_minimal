@@ -57,6 +57,7 @@
     background: none;
     padding-top: 64px;
     padding-bottom: 266px;
+    height: 100%;
   }
   .hero .container {
     background-repeat: no-repeat;
