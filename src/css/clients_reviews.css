@@ -98,11 +98,15 @@
     display: none;
   }
 
+  .info-wrap {
+    align-items: center;
+  }
+
+
     .clients-pic {
       border-radius: 56px;
       width: 56px;
       height: 56px;
-      margin: auto;
       margin-left: 0;
       margin-right: 0;
     }
