@@ -9,40 +9,39 @@ hr {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  position: relative;
 }
 .price-item-link {
-  color: var(--blue-font, #0a224a);
+  color: var(--blue-font);
   font-family: Roboto;
   font-size: 24px;
   font-weight: 400;
   line-height: 1.5;
   text-transform: uppercase;
-  position: relative;
   transition: transform 200ms linear 200ms;
-
 }
-.price-item-link::before {
+
+.price-item::before {
   height: 3px;
-  width: 40px;
-  border-radius: 2px;
-  background-color: transparent;
+  width: 50px;
   content: '';
   position: absolute;
-  left: 0px;
-  top: 50%;
-  transition: background-color 200ms ease-in 200ms, transform 200ms linear 200ms;
-
-}
-.price-item-link:focus {
-  transform: translateX(60px);
-}
-
-.price-item-link:focus::before {
-  transform: translateX(-60px);
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: left center;
   background-color: var(--blue-font);
+  transition: transform 200ms ease-in 200ms;
 }
+
+.price-item:hover::before {
+  transform: scaleX(1);
+}
+.price-item:hover .price-item-link {
+  transform: translateX(70px);
+}
+
 .price-item-value {
-  color: var(--blue-font, #0a224a);
+  color: var(--blue-font);
   text-align: right;
   font-family: Roboto;
   font-size: 16px;
