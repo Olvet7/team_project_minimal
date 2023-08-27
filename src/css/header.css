@@ -131,13 +131,13 @@ main {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    padding: 34px 0;
     margin: 0;
   }
   .header-nav-link {
     color: var(--blue-font);
+    padding: 34px 0;
   }
   .logo-link {
-    padding: 38px 0;
+    padding: 34px 0;
   }
 }

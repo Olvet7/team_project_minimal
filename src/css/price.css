@@ -1,5 +1,5 @@
 hr {
-  border-color: #0a224a;
+  border-color: var(--blue-font);
   margin: 0;
 }
 .price-item {
@@ -18,6 +18,8 @@ hr {
   line-height: 1.5;
   text-transform: uppercase;
   position: relative;
+  transition: transform 200ms linear 200ms;
+
 }
 .price-item-link::before {
   height: 3px;
@@ -28,18 +30,16 @@ hr {
   position: absolute;
   left: 0px;
   top: 50%;
+  transition: background-color 200ms ease-in 200ms, transform 200ms linear 200ms;
+
 }
-.price-item-link:hover,
 .price-item-link:focus {
   transform: translateX(60px);
-  transition: transform 200ms linear 200ms;
 }
 
-.price-item-link:hover::before,
 .price-item-link:focus::before {
   transform: translateX(-60px);
-  background-color: #0a224a;
-  transition: background-color 200ms ease-in 200ms, transform 200ms linear 200ms;
+  background-color: var(--blue-font);
 }
 .price-item-value {
   color: var(--blue-font, #0a224a);
