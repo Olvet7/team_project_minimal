@@ -13,15 +13,14 @@
 .hero-title {
   margin-bottom: 14px;
   color: var(--blue-font, #0a224a);
-  font-family: Playfair Display, serif;
+  font-family: Playfair Display;
   font-size: 28px;
-  width: 285px;
+  width: 286px;
   line-height: 1.5;
   text-transform: uppercase;
 }
 .hero-text {
   color: var(--blue-font, #0a224a);
-  font-family: Roboto;
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 28px;
@@ -53,7 +52,6 @@
   }
   .hero .container {
     padding-top: 0;
-    background-repeat: no-repeat;
     height: 531px;
     background-image: url(../img/hero/hero-tablet1.jpg),
       url(../img/hero/hero-tablet2.jpg);
