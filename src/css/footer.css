@@ -99,6 +99,9 @@
 /* 768 */
 @media screen and (min-width: 768px) {
     
+    .ftr-privacy{
+        width: 616px;
+    }
     .ftr-media {
     width: 40px;
     height: 40px;
@@ -127,7 +130,6 @@
 
     .ftr-privacy-text {
     width: 616px;
-    height: 20px;
     font-size: 16px;
     line-height: 1.25em;
 }
@@ -161,80 +163,76 @@
         bottom: 16px;
         left: 50%;
         transform: translateX(-50%);
-    }
-
-  .ftr-privacy {
         width: 616px;
     }
-
 }
 /* 768 */
 
 /* 1440 */
 @media screen and (min-width: 1440px) {
-.logo-ftr-icons {
-    margin: 0;
-}
-.ftr-page .container {
-    max-width: 1440px;
-    height: 262px;
-    padding: 36px 60px;
-} 
-
-.ftr-address {
-    left: 60px;
-}
-
-.ftr-privacy-block {
-    bottom: 36px;
-    left: -50%;
-    transform: translateX(50%);
-}
-
-.ftr-nav-menu {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    left: 506px;
-    padding: 8px;
-}
-
-.nav-text {
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-.ftr-address-text {
-    font-size: 19px;
-}
-
-.ftr-contacts {
-    top: 103px;
-    left: 395px;
-    width: 481px;
-    height: 68px;
-    
-}
-
-.ftr-address-text {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 24px 82px;
-    display: flex;
-}
-
-.phone-order {
-    order: 2;
-}
-
-.ftr-media-list {
-    gap: 30px;
-}
-
-.address-map {
-    flex-direction: column;
-    gap: 24px;
+    .logo-ftr-icons {
+        margin: 0;
     }
+    .ftr-page .container {
+        max-width: 1440px;
+        height: 262px;
+        padding: 36px 60px;
+    } 
+
+    .ftr-address {
+        left: 60px;
+    }
+
+    .ftr-privacy-block {
+        bottom: 60px;
+        left: -50%;
+        transform: translateX(50%);
+    }
+
+    .ftr-nav-menu {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        left: 506px;
+        padding: 8px;
+    }
+
+    .nav-text {
+        font-size: 19px;
+        line-height: 1.5;
+    }
+
+    .ftr-address-text {
+        font-size: 19px;
+    }
+
+    .ftr-contacts {
+        top: 103px;
+        left: 395px;
+        width: 481px;
+        height: 68px;
+        
+    }
+
+    .ftr-address-text {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px 82px;
+        display: flex;
+    }
+
+    .phone-order {
+        order: 2;
+    }
+
+    .ftr-media-list {
+        gap: 30px;
+    }
+
+    .address-map {
+        flex-direction: column;
+        gap: 24px;
+        }
 }
 
 /* 1440 */
