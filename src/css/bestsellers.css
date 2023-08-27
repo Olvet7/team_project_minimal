@@ -31,14 +31,12 @@
   font-style: normal;
   line-height: 1.5;
   margin-bottom: 10px;
-  width: 343px;
 }
 .bestsellers-big_image-text {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.5;
-  width: 343px;
 }
 
 .bestsellers-list {
@@ -71,6 +69,13 @@
 .bestsellers-item:nth-child(n + 3) {
   display: none;
 }
+@media screen and (min-width: 375px) {
+  .bestsellers-container {
+    max-width: 375px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .bestsellers {
@@ -94,12 +99,7 @@
   .bestsellers-big_image {
     width: 704px;
   }
-  .bestsellers-big_image-subtitle {
-    width: 397px;
-  }
-  .bestsellers-big_image-text {
-    width: 397px;
-  }
+
   .bestsellers-item:nth-child(n + 3) {
     display: block;
   }
