@@ -27,7 +27,7 @@
 }
 .hero-btn {
   display: flex;
-  min-width: 224px;
+  width: 224px;
   padding: 12px 65px;
   justify-content: center;
   align-items: center;
