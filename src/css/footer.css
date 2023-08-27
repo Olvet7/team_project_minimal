@@ -32,6 +32,7 @@
 @media screen and (min-width: 768px) {
     .ftr-page .container {
         max-width: 768px;
+        height: 462px;
         padding: 36px 32px;
     }
 }
@@ -50,7 +51,7 @@
 } */
 
 .ftr-page .container {
-    height: 462px;
+    /* height: 462px; */
 }
 
 .ftr-media-list {
