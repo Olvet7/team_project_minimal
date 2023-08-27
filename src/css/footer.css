@@ -150,7 +150,7 @@
         font-size: 19px;
     }
 
-    .ftr-address-text {
+    .nav-text {
         display: flex;
         flex-direction: column;
         gap: 24px;
@@ -172,7 +172,9 @@
 
 /* 1440 */
 @media screen and (min-width: 1440px) {
- 
+.logo-ftr-icons {
+    margin: 0;
+}
 .ftr-page .container {
     max-width: 1440px;
     height: 262px;
@@ -180,7 +182,7 @@
 } 
 
 .ftr-address {
- left: 60px;
+    left: 60px;
 }
 
 .ftr-privacy-block {
@@ -207,14 +209,18 @@
 }
 
 .ftr-contacts {
-    display: flex;
     top: 103px;
     left: 395px;
     width: 481px;
     height: 68px;
+    
+}
+
+.ftr-address-text {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px 82px;
+    display: flex;
 }
 
 .phone-order {
@@ -224,8 +230,11 @@
 .ftr-media-list {
     gap: 30px;
 }
+
+.address-map {
+    flex-direction: column;
+    gap: 24px;
+    }
 }
-
-
 
 /* 1440 */
