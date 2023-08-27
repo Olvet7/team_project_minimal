@@ -1,77 +1,138 @@
 <header class="header">
-      <div class="container">
-        <div class="header-logo">
-          <a class="logo-link" href="./index.html" aria-label="Site Logo"
-            ><svg class="logo" width="100" height="16">
-              <use href="/img/icons.svg#icon-logo"></use></svg
-          ></a>
-        </div>
-        <nav class="header-navigation">
-          <ul class="header-nav-list">
-            <li class="header-nav-item">
-              <a class="header-nav-link" href="#about_us">About us</a>
-            </li>
-            <li class="header-nav-item">
-              <a class="header-nav-link" href="#our_products">Our products</a>
-            </li>
-            <li class="header-nav-item">
-              <a class="header-nav-link" href="#price">Prices</a>
-            </li>
-            <li class="header-nav-item">
-              <a class="header-nav-link" href="#bestsellers">Bestsellers</a>
-            </li>
-            <li class="header-nav-item">
-              <a class="header-nav-link" href="#clients_reviews">Reviews</a>
-            </li>
-            <li class="header-nav-item">
-              <a class="header-nav-link" href="#contacts">Contacts</a>
-            </li>
-          </ul>
-        </nav>
+  <div class="container">
+    <div class="header-logo">
+      <a class="logo-link" href="./index.html" aria-label="Open Site"
+        ><svg class="logo" width="100" height="16">
+          <use href="/img/icons.svg#icon-logo"></use></svg
+      ></a>
+    </div>
+    <nav class="header-navigation">
+      <ul class="header-nav-list">
+        <li class="header-nav-item">
+          <a
+            class="header-nav-link"
+            href="#about_us"
+            aria-label="navigation to 'about us' section"
+            >About us</a
+          >
+        </li>
+        <li class="header-nav-item">
+          <a
+            class="header-nav-link"
+            href="#our_products"
+            aria-label="navigation to 'our products' section"
+            >Our products</a
+          >
+        </li>
+        <li class="header-nav-item">
+          <a
+            class="header-nav-link"
+            href="#price"
+            aria-label="navigation to 'prices' section"
+            >Prices</a
+          >
+        </li>
+        <li class="header-nav-item">
+          <a
+            class="header-nav-link"
+            href="#bestsellers"
+            aria-label="navigation to 'bestsellers' section"
+            >Bestsellers</a
+          >
+        </li>
+        <li class="header-nav-item">
+          <a
+            class="header-nav-link"
+            href="#clients_reviews"
+            aria-label="navigation to 'clients reviews' section"
+            >Reviews</a
+          >
+        </li>
+        <li class="header-nav-item">
+          <a
+            class="header-nav-link"
+            href="#contacts"
+            aria-label="navigation to 'contacts' section"
+            >Contacts</a
+          >
+        </li>
+      </ul>
+    </nav>
 
-        <!--? MOBILE MENU  -->
-        <button
-          id="openBtn"
-          type="button" 
-          class="mob-menu-open-btn"
-          data-menu-open
-        >
-          <svg width="32" height="32">
-            <use href="/img/icons.svg#icon-burger-menu"></use>
-          </svg>
-        </button>
-        <button
-          id="closeBtn"
-          class="close-menu-btn hidden"
-          type="button"
-          data-menu-close
-        >
-          <svg width="32" height="32">
-            <use href="/img/icons.svg#icon-close-menu"></use>
-          </svg>
-        </button>
+    <!--? MOBILE MENU  -->
+    <button id="openBtn" type="button" class="mob-menu-open-btn" data-menu-open aria-label="open mobile menu">
+      <svg width="32" height="32">
+        <use href="/img/icons.svg#icon-burger-menu"></use>
+      </svg>
+    </button>
+    <button
+      id="closeBtn"
+      class="close-menu-btn hidden"
+      type="button"
+      data-menu-close aria-label="open mobile menu"
+    >
+      <svg width="32" height="32">
+        <use href="/img/icons.svg#icon-close-menu"></use>
+      </svg>
+    </button>
 
-        <div class="mob-menu is-hidden" id="is_hidden" data-menu>
-          <ul class="mob-nav-list">
-            <li class="mob-nav-item">
-              <a class="mob-nav-link" href="#about_us" id="about_us_anchor">About us</a>
-            </li>
-            <li class="mob-nav-item">
-              <a class="mob-nav-link" href="#our_products" id="our_products_anchor">Our products</a>
-            </li>
-            <li class="mob-nav-item">
-              <a class="mob-nav-link" href="#price" id="prices_anchor">Prices</a>
-            </li>
-            <li class="mob-nav-item">
-              <a class="mob-nav-link" href="#bestsellers" id="bestsellers_anchor">Bestsellers</a>
-            </li>
-            <li class="mob-nav-item">
-              <a class="mob-nav-link" href="#clients_reviews" id="reviews_anchor">Reviews</a>
-            </li>
-            <li class="mob-nav-item">
-              <a class="mob-nav-link" href="#contacts" id="contacts_anchor">Contacts</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
+    <div class="mob-menu is-hidden" id="is_hidden" data-menu>
+      <ul class="mob-nav-list">
+        <li class="mob-nav-item">
+          <a
+            class="mob-nav-link"
+            href="#about_us"
+            id="about_us_anchor"
+            aria-label="navigation to 'about us' section"
+            >About us</a
+          >
+        </li>
+        <li class="mob-nav-item">
+          <a
+            class="mob-nav-link"
+            href="#our_products"
+            id="our_products_anchor"
+            aria-label="navigation to 'our products' section"
+            >Our products</a
+          >
+        </li>
+        <li class="mob-nav-item">
+          <a
+            class="mob-nav-link"
+            href="#price"
+            id="prices_anchor"
+            aria-label="navigation to 'prices' section"
+            >Prices</a
+          >
+        </li>
+        <li class="mob-nav-item">
+          <a
+            class="mob-nav-link"
+            href="#bestsellers"
+            id="bestsellers_anchor"
+            aria-label="navigation to 'bestsellers' section"
+            >Bestsellers</a
+          >
+        </li>
+        <li class="mob-nav-item">
+          <a
+            class="mob-nav-link"
+            href="#clients_reviews"
+            id="reviews_anchor"
+            aria-label="navigation to 'clients reviews' section"
+            >Reviews</a
+          >
+        </li>
+        <li class="mob-nav-item">
+          <a
+            class="mob-nav-link"
+            href="#contacts"
+            id="contacts_anchor"
+            aria-label="navigation to 'contacts' section"
+            >Contacts</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
