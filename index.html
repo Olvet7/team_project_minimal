@@ -21,88 +21,150 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
-    <script type="module" crossorigin src="/team_project_minimal/assets/index-642439cd.js"></script>
-    <link rel="stylesheet" href="/team_project_minimal/assets/index-45d3b017.css">
+    <script type="module" crossorigin src="/team_project_minimal/assets/index-bdfc041b.js"></script>
+    <link rel="stylesheet" href="/team_project_minimal/assets/index-7e2f3c52.css">
   </head>
 
   <body>
     <header class="header">
-      <div class="container">
-        <div class="header-logo">
-          <a class="logo-link" href="./index.html" aria-label="Site Logo"
-            ><svg class="logo" width="100" height="16">
-              <use href="/team_project_minimal/assets/icons-753aa469.svg#icon-logo"></use></svg
-          ></a>
-        </div>
-        <nav class="header-navigation">
-          <ul class="header-nav-list">
-            <li class="header-nav-item">
-              <a class="header-nav-link" href="#about_us">About us</a>
-            </li>
-            <li class="header-nav-item">
-              <a class="header-nav-link" href="#our_products">Our products</a>
-            </li>
-            <li class="header-nav-item">
-              <a class="header-nav-link" href="#price">Prices</a>
-            </li>
-            <li class="header-nav-item">
-              <a class="header-nav-link" href="#bestsellers">Bestsellers</a>
-            </li>
-            <li class="header-nav-item">
-              <a class="header-nav-link" href="#clients_reviews">Reviews</a>
-            </li>
-            <li class="header-nav-item">
-              <a class="header-nav-link" href="#contacts">Contacts</a>
-            </li>
-          </ul>
-        </nav>
+  <div class="container">
+    <div class="header-logo">
+      <a class="logo-link" href="./index.html" aria-label="Open Site"
+        ><svg class="logo" width="100" height="16">
+          <use href="/team_project_minimal/assets/icons-753aa469.svg#icon-logo"></use></svg
+      ></a>
+    </div>
+    <nav class="header-navigation">
+      <ul class="header-nav-list">
+        <li class="header-nav-item">
+          <a
+            class="header-nav-link"
+            href="#about_us"
+            aria-label="navigation to 'about us' section"
+            >About us</a
+          >
+        </li>
+        <li class="header-nav-item">
+          <a
+            class="header-nav-link"
+            href="#our_products"
+            aria-label="navigation to 'our products' section"
+            >Our products</a
+          >
+        </li>
+        <li class="header-nav-item">
+          <a
+            class="header-nav-link"
+            href="#price"
+            aria-label="navigation to 'prices' section"
+            >Prices</a
+          >
+        </li>
+        <li class="header-nav-item">
+          <a
+            class="header-nav-link"
+            href="#bestsellers"
+            aria-label="navigation to 'bestsellers' section"
+            >Bestsellers</a
+          >
+        </li>
+        <li class="header-nav-item">
+          <a
+            class="header-nav-link"
+            href="#clients_reviews"
+            aria-label="navigation to 'clients reviews' section"
+            >Reviews</a
+          >
+        </li>
+        <li class="header-nav-item">
+          <a
+            class="header-nav-link"
+            href="#contacts"
+            aria-label="navigation to 'contacts' section"
+            >Contacts</a
+          >
+        </li>
+      </ul>
+    </nav>
 
-        <!--? MOBILE MENU  -->
-        <button
-          id="openBtn"
-          type="button" 
-          class="mob-menu-open-btn"
-          data-menu-open
-        >
-          <svg width="32" height="32">
-            <use href="/team_project_minimal/assets/icons-753aa469.svg#icon-burger-menu"></use>
-          </svg>
-        </button>
-        <button
-          id="closeBtn"
-          class="close-menu-btn hidden"
-          type="button"
-          data-menu-close
-        >
-          <svg width="32" height="32">
-            <use href="/team_project_minimal/assets/icons-753aa469.svg#icon-close-menu"></use>
-          </svg>
-        </button>
+    <!--? MOBILE MENU  -->
+    <button id="openBtn" type="button" class="mob-menu-open-btn" data-menu-open aria-label="open mobile menu">
+      <svg width="32" height="32">
+        <use href="/team_project_minimal/assets/icons-753aa469.svg#icon-burger-menu"></use>
+      </svg>
+    </button>
+    <button
+      id="closeBtn"
+      class="close-menu-btn hidden"
+      type="button"
+      data-menu-close aria-label="open mobile menu"
+    >
+      <svg width="32" height="32">
+        <use href="/team_project_minimal/assets/icons-753aa469.svg#icon-close-menu"></use>
+      </svg>
+    </button>
 
-        <div class="mob-menu is-hidden" id="is_hidden" data-menu>
-          <ul class="mob-nav-list">
-            <li class="mob-nav-item">
-              <a class="mob-nav-link" href="#about_us" id="about_us_anchor">About us</a>
-            </li>
-            <li class="mob-nav-item">
-              <a class="mob-nav-link" href="#our_products" id="our_products_anchor">Our products</a>
-            </li>
-            <li class="mob-nav-item">
-              <a class="mob-nav-link" href="#price" id="prices_anchor">Prices</a>
-            </li>
-            <li class="mob-nav-item">
-              <a class="mob-nav-link" href="#bestsellers" id="bestsellers_anchor">Bestsellers</a>
-            </li>
-            <li class="mob-nav-item">
-              <a class="mob-nav-link" href="#clients_reviews" id="reviews_anchor">Reviews</a>
-            </li>
-            <li class="mob-nav-item">
-              <a class="mob-nav-link" href="#contacts" id="contacts_anchor">Contacts</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
+    <div class="mob-menu is-hidden" id="is_hidden" data-menu>
+      <ul class="mob-nav-list">
+        <li class="mob-nav-item">
+          <a
+            class="mob-nav-link"
+            href="#about_us"
+            id="about_us_anchor"
+            aria-label="navigation to 'about us' section"
+            >About us</a
+          >
+        </li>
+        <li class="mob-nav-item">
+          <a
+            class="mob-nav-link"
+            href="#our_products"
+            id="our_products_anchor"
+            aria-label="navigation to 'our products' section"
+            >Our products</a
+          >
+        </li>
+        <li class="mob-nav-item">
+          <a
+            class="mob-nav-link"
+            href="#price"
+            id="prices_anchor"
+            aria-label="navigation to 'prices' section"
+            >Prices</a
+          >
+        </li>
+        <li class="mob-nav-item">
+          <a
+            class="mob-nav-link"
+            href="#bestsellers"
+            id="bestsellers_anchor"
+            aria-label="navigation to 'bestsellers' section"
+            >Bestsellers</a
+          >
+        </li>
+        <li class="mob-nav-item">
+          <a
+            class="mob-nav-link"
+            href="#clients_reviews"
+            id="reviews_anchor"
+            aria-label="navigation to 'clients reviews' section"
+            >Reviews</a
+          >
+        </li>
+        <li class="mob-nav-item">
+          <a
+            class="mob-nav-link"
+            href="#contacts"
+            id="contacts_anchor"
+            aria-label="navigation to 'contacts' section"
+            >Contacts</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
     <main>
       <section class="hero">
   <div class="container">
@@ -111,7 +173,7 @@
       <p class="hero-text">
         Add a touch of elegance to your space with handcrafted furniture pieces
       </p>
-      <a class="hero-btn" href="#subscription"> Subscribe </a>
+      <a class="hero-btn" href="#subscription" aria-label="subscribe button"> Subscribe </a>
     </div>
   </div>
 </section>
@@ -174,22 +236,22 @@
     <ul class="price-list list">
       <hr class="price-line" />
       <li class="price-item">
-        <a href="#chairs" class="price-item-link link">Chairs</a>
+        <a href="#chairs" class="price-item-link link" aria-label="chairs items">Chairs</a>
         <p class="price-item-value">from 200$</p>
       </li>
       <hr class="line" />
       <li class="price-item">
-        <a href="#tables" class="price-item-link link">Tables</a>
+        <a href="#tables" class="price-item-link link" aria-label="tables items">Tables</a>
         <p class="price-item-value">from 250$</p>
       </li>
       <hr class="line" />
       <li class="price-item">
-        <a href="#dressers" class="price-item-link link">Dressers</a>
+        <a href="#dressers" class="price-item-link link" aria-label="dressers items">Dressers</a>
         <p class="price-item-value">from 300$</p>
       </li>
       <hr class="line" />
       <li class="price-item">
-        <a href="#sofas" class="price-item-link link">Sofas</a>
+        <a href="#sofas" class="price-item-link link" aria-label="sofas items">Sofas</a>
         <p class="price-item-value">from 500$</p>
       </li>
       <hr class="line" />
