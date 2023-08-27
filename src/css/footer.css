@@ -247,8 +247,7 @@
 } */
 
 @media screen and (min-width: 768px) {
-    .ftr-privacy {
+    .ftr-privacy-block {
         width: 616px;
-
     }
 }
