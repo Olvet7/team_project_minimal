@@ -55,15 +55,6 @@
     }
 }
 
-/* .ftr-page {
-    font-size: 16px;
-    max-height: 462px;
-} */
-
-.ftr-page .container {
-    /* height: 462px; */
-}
-
 .ftr-media-list {
     display: flex;
     gap: 16px;
@@ -244,10 +235,6 @@
         transform: translateX(-50%);
     }
 }
-
-/* .ftr-privacy {
-    width: 343px;
-} */
 
 @media screen and (min-width: 768px) {
     .ftr-privacy-block {
