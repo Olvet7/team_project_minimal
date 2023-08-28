@@ -8,28 +8,47 @@
       <form class="form" id="myForm">
         <div class="container-user-name">
           <label for="user-name" class="label-user-name"></label>
-          <input type="text" id="user-name" name="user-name" placeholder="Name" class="input-user-name"
-            pattern=".{2,16}" required />
+          <input
+            type="text"
+            id="user-name"
+            name="user-name"
+            placeholder="Name"
+            class="input-user-name"
+            pattern=".{2,16}"
+            required
+          />
           <svg class="error">
             <use href="./img/icons.svg#icon-error"></use>
           </svg>
         </div>
         <div class="container-user-email">
           <label for="user-email" class="label-user-email"></label>
-          <input type="email" id="user-email" name="user-email" placeholder="E-mail" class="input-user-email"
-            required />
+          <input
+            type="email"
+            id="user-email"
+            name="user-email"
+            placeholder="E-mail"
+            class="input-user-email"
+            required
+          />
           <svg class="error">
             <use href="./img/icons.svg#icon-error"></use>
           </svg>
         </div>
         <div class="container-checkbox">
-          <input type="checkbox" id="user-agree" name="agree-checkbox" value="true"
-            class="input-checkbox visually-hidden" />
+          <input
+            type="checkbox"
+            id="user-agree"
+            name="agree-checkbox"
+            value="true"
+            class="input-checkbox visually-hidden"
+          />
           <label for="user-agree" class="label-checkbox">
             <span class="label-span">
               <svg class="svg" width="13" height="13">
                 <use href="./img/icons.svg#icon-vector"></use>
-              </svg> </span>Agree to subscribe to the newsletter
+              </svg> </span
+            >Agree to subscribe to the newsletter
           </label>
         </div>
         <button type="submit" class="btn-send">Send</button>
@@ -37,19 +56,34 @@
     </div>
     <div class="subscription-pic">
       <picture>
-        <source media="(max-width: 767px)" srcset="
+        <source
+          media="(max-width: 767px)"
+          srcset="
             ./img/subscription-img/sub-pic-mob-x1.jpg,
             ./img/subscription-img/sub-pic-mob-x2.jpg 2x
-          " />
-        <source media="(min-width: 768px) and (max-width: 1439px)" srcset="
+          "
+        />
+        <source
+          media="(min-width: 768px) and (max-width: 1439px)"
+          srcset="
             ./img/subscription-img/sub-pic-tab-x1.jpg,
             ./img/subscription-img/sub-pic-tab-x2.jpg 2x
-          " />
-        <source media="(min-width: 1440px)" srcset="
+          "
+        />
+        <source
+          media="(min-width: 1440px)"
+          srcset="
             ./img/subscription-img/sub-pic-dec-x1.jpg,
             ./img/subscription-img/sub-pic-dec-x2.jpg 2x
-          " />
-        <img class="subscription-img" src="./img/subscription-img/sub-pic-dec-x1.jpg" alt="book on table" />
+          "
+        />
+        <img
+          class="subscription-img"
+          src="./img/subscription-img/sub-pic-dec-x1.jpg"
+          alt="book on table"
+          width="343"
+          height="300"
+        />
       </picture>
     </div>
   </div>

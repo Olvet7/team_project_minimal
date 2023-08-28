@@ -166,6 +166,9 @@
     max-width: 536px;
     margin-bottom: 20px;
   }
+  .subscription-pic img {
+    width: 704px;
+  }
 
   .container-user-name {
     max-width: 536px;
@@ -212,7 +215,9 @@
     justify-content: center;
     gap: 100px;
   }
-
+  .subscription-pic img {
+    width: 460px;
+  }
   .btn-send {
     margin-bottom: 0;
     margin-top: 23px;
