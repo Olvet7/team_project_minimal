@@ -57,8 +57,8 @@
     <title>MINIMAL</title>
     <meta name="description" content="Minimal page project 12" />
     
-    <script type="module" crossorigin src="/team_project_minimal/assets/index-ff0ce74d.js"></script>
-    <link rel="stylesheet" href="/team_project_minimal/assets/index-cc9b320c.css">
+    <script type="module" crossorigin src="/team_project_minimal/assets/index-f02592cf.js"></script>
+    <link rel="stylesheet" href="/team_project_minimal/assets/index-4929fc0f.css">
   </head>
 
   <body>
@@ -260,7 +260,12 @@
           srcset="/team_project_minimal/assets/about-us-mobile-1x-884ca2a1.jpg , /team_project_minimal/assets/about-us-mobile-2x-b7da2cc1.jpg "
           media="(min-width:320px)"
         />
-        <img src="../img/about-us/about-us-1x" alt="sofa" width="704" />
+        <img
+          src="./img/about-us/about-us-1x"
+          alt="sofa"
+          width="704"
+          height="540"
+        />
       </picture>
     </div>
   </div>
@@ -325,6 +330,7 @@
               alt="vooden minimalist
               storage"
               width="343"
+              height="300"
             />
           </picture>
 
@@ -345,7 +351,8 @@
             <img
               src="/team_project_minimal/assets/product2-2d253540.jpg"
               alt="blue sofa"
-              width="343"
+              width="312"
+              height="300"
             />
           </picture>
           <h3 class="products-description">Handcrafted minimalist seating</h3>
@@ -361,7 +368,8 @@
             <img
               src="/team_project_minimal/assets/product3-b415a9d1.jpg"
               alt="metal table"
-              width="343"
+              width="312"
+              height="300"
             />
           </picture>
           <h3 class="products-description">Sleek and simple tables</h3>
@@ -377,7 +385,8 @@
             <img
               src="/team_project_minimal/assets/product4-70581d11.jpg"
               alt="blue chair"
-              width="343"
+              width="312"
+              height="300"
             />
           </picture>
           <h3 class="products-description">
@@ -412,6 +421,7 @@
             src="/team_project_minimal/assets/bed-1x-desk-0a5bf5d0.jpg"
             alt="Modern bed"
             width="536"
+            height="489"
           />
         </picture>
 
@@ -440,6 +450,7 @@
                 src="/team_project_minimal/assets/chairs-1x-desk-5e33b603.jpg"
                 alt="Lounge chairs"
                 width="343"
+                height="193"
               />
             </picture>
 
@@ -470,6 +481,7 @@
                 src="/team_project_minimal/assets/ind_chair-1x-desk-bdfaebc6.jpg"
                 alt="Industrial chair"
                 width="343"
+                height="193"
               />
             </picture>
 
@@ -497,6 +509,7 @@
                 src="/team_project_minimal/assets/stand-1x-desk-91763924.jpg"
                 alt="Sleek stand"
                 width="343"
+                height="193"
               />
             </picture>
 
@@ -522,6 +535,7 @@
                 src="/team_project_minimal/assets/sofa-1x-desk-96839c4b.jpg"
                 alt="Grey sofa"
                 width="343"
+                height="193"
               />
             </picture>
 
@@ -619,28 +633,47 @@
       <form class="form" id="myForm">
         <div class="container-user-name">
           <label for="user-name" class="label-user-name"></label>
-          <input type="text" id="user-name" name="user-name" placeholder="Name" class="input-user-name"
-            pattern=".{2,16}" required />
+          <input
+            type="text"
+            id="user-name"
+            name="user-name"
+            placeholder="Name"
+            class="input-user-name"
+            pattern=".{2,16}"
+            required
+          />
           <svg class="error">
             <use href="/team_project_minimal/assets/icons-753aa469.svg#icon-error"></use>
           </svg>
         </div>
         <div class="container-user-email">
           <label for="user-email" class="label-user-email"></label>
-          <input type="email" id="user-email" name="user-email" placeholder="E-mail" class="input-user-email"
-            required />
+          <input
+            type="email"
+            id="user-email"
+            name="user-email"
+            placeholder="E-mail"
+            class="input-user-email"
+            required
+          />
           <svg class="error">
             <use href="/team_project_minimal/assets/icons-753aa469.svg#icon-error"></use>
           </svg>
         </div>
         <div class="container-checkbox">
-          <input type="checkbox" id="user-agree" name="agree-checkbox" value="true"
-            class="input-checkbox visually-hidden" />
+          <input
+            type="checkbox"
+            id="user-agree"
+            name="agree-checkbox"
+            value="true"
+            class="input-checkbox visually-hidden"
+          />
           <label for="user-agree" class="label-checkbox">
             <span class="label-span">
               <svg class="svg" width="13" height="13">
                 <use href="/team_project_minimal/assets/icons-753aa469.svg#icon-vector"></use>
-              </svg> </span>Agree to subscribe to the newsletter
+              </svg> </span
+            >Agree to subscribe to the newsletter
           </label>
         </div>
         <button type="submit" class="btn-send">Send</button>
@@ -648,14 +681,30 @@
     </div>
     <div class="subscription-pic">
       <picture>
-        <source media="(max-width: 767px)" srcset="/team_project_minimal/assets/sub-pic-mob-x1-52ea113a.jpg , /team_project_minimal/assets/sub-pic-mob-x2-9289736d.jpg 2x" />
-        <source media="(min-width: 768px) and (max-width: 1439px)" srcset="/team_project_minimal/assets/sub-pic-tab-x1-850e7d19.jpg , /team_project_minimal/assets/sub-pic-tab-x2-a42c72f7.jpg 2x" />
-        <source media="(min-width: 1440px)" srcset="/team_project_minimal/assets/sub-pic-dec-x1-2dc2e3f3.jpg , /team_project_minimal/assets/sub-pic-dec-x2-3c4a454a.jpg 2x" />
-        <img class="subscription-img" src="/team_project_minimal/assets/sub-pic-dec-x1-2dc2e3f3.jpg" alt="book on table" />
+        <source
+          media="(max-width: 767px)"
+          srcset="/team_project_minimal/assets/sub-pic-mob-x1-52ea113a.jpg , /team_project_minimal/assets/sub-pic-mob-x2-9289736d.jpg 2x"
+        />
+        <source
+          media="(min-width: 768px) and (max-width: 1439px)"
+          srcset="/team_project_minimal/assets/sub-pic-tab-x1-850e7d19.jpg , /team_project_minimal/assets/sub-pic-tab-x2-a42c72f7.jpg 2x"
+        />
+        <source
+          media="(min-width: 1440px)"
+          srcset="/team_project_minimal/assets/sub-pic-dec-x1-2dc2e3f3.jpg , /team_project_minimal/assets/sub-pic-dec-x2-3c4a454a.jpg 2x"
+        />
+        <img
+          class="subscription-img"
+          src="/team_project_minimal/assets/sub-pic-dec-x1-2dc2e3f3.jpg"
+          alt="book on table"
+          width="343"
+          height="300"
+        />
       </picture>
     </div>
   </div>
 </section>
+
     </main>
 
     <footer id="contacts" class="ftr-page">
